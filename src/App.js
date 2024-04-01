@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
-
+// import logo from './assets/img/doglogo.png'
 
 function App() {
   return (
@@ -10,11 +10,21 @@ function App() {
       <Header />
       <section id="hero">
         <div className="hero-container" data-aos="fade-up" data-aos-delay="150">
-          <div style={{ textAlign: 'left', width: '75%' }}>
-            <h1>Sharing the love of Christ!</h1>
-            <h4>We exist to bring the love of Jesus Christ to children and families in Africa and beyond</h4>
-            <div className="d-flex">
-              <a href="#about" className="btn-get-started scrollto">Learn More!</a>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-md-7' style={{textAlign:'center'}}>
+                <div className='logo'>
+                  <img src={logo} class="logo" alt="" />
+                </div> 
+                <div className='heading'>
+                  <div className='text'>
+                    <h1>Be a part of Central University's significant endeavor as we undertake the construction of a cutting-edge medical center and hostel. Join us today in shaping the future of Central University</h1>
+                    <div className="d-flex">
+                      <a href="#about" className="btn-get-started scrollto">Learn More!</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
