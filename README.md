@@ -1,4 +1,4 @@
-# Getting Started with Create React App gof my Donations
+# Getting Started with Create React App for Donations
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
